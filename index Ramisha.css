@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat";
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+  
+  .nav-link {
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    font-family: "Montserrat";
+    max-width: 98vw;
+    height: 80vh;
+    background-image: url(./young-content-creator-smiling-blonde-girl-with-headphones-working-her-laptop-table-with-camera\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+  }
+  nav img {
+    position: relative;
+    left: -250px;
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    position: relative;
+    right: 5px;
+  }
+  .links li {
+    color: white;
+  }
+  header h1 {
+    color: #dc3635;
+    font-size: 4em;
+  }
+  header h2,
+  p {
+    color: #ffffff;
+  }
+  .header-text {
+    width: 600px;
+    position: relative;
+    left: 400px;
+    text-align: justify;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    width: 97vw;
+    height: 80vh;
+  }
+  .standing-lady {
+    float: left;
+    padding-left: 200px;
+  }
+  .About-me {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 2rem;
+    margin-left: 750px;
+    margin-top: 150px;
+  }
+  .About-me h6 {
+    font-weight: 100;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    align-items: center;
+  }
+  .service-text {
+    width: 60%;
+    position: relative;
+    left: 50px;
+  }
+  .service-text h2 {
+    font-size: 2.4rem;
+    position: relative;
+    left: 150px;
+  }
+  .service-text h5 {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  .design-types {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+  }
+  .design-types h6 {
+    font-weight: 200;
+    font-size: 1rem;
+  }
+  .design-types div {
+    background-color: #ffecec;
+    width: 250px;
+    height: 300px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Projects-text {
+    width: 40%;
+    font-size: 1.5rem;
+  }
+  .Projects-text h6 {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .Projects-top-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    max-width: max-content;
+    position: relative;
+    left: 400px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+  .Projects-top-buttons h4:nth-child(1) {
+    width: 30px;
+    position: relative;
+    right: -100px;
+  }
+  .Projects-top-buttons > h4 {background-color:#ffecec ;}
+  .Projects-text {display: flex; flex-direction: column; align-items: center; text-align: center; margin-left: 350px;}
+  .Projects-pics {position: absolute; display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 100px; }
+  .Projects-secondpics {display: grid; grid-template-columns: repeat(3, 1fr); }
+  .Projects-secondpics {margin-top: 100px;}
+  .clear {clear: both;}
+  .testimonials { margin-top: 170px; background-color: #DC3635; color: white; font-size: 1.5em;}
+  .testimonials h6{ font-weight: 200;}
+  .testimonial-brief {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;}
+  .our-staff {display: grid; grid-template-columns: repeat(4, 1fr); column-gap: 15px;}
